@@ -1,106 +1,191 @@
 *{
     box-sizing:border-box;
+    background-color:black;
+    color:white;
 }
-body{
-    margin:0px;
-    background-color:#000000; 
-    
-   
-}
+
 .row1{
-    height:26px;
+    height:28px;
+    width:100%;
+   
 }
 .row2{
     height:72px;
+    width:100%;
 }
-.col1{
-    float:left;
+.Title_row{
+    width:400px;
     height:72px;
-    width:72px;
-    margin-left:80px;
-}
-.col2{
+    padding-left:72px;
     float:left;
-    height:48px;
-    width:120px;
-    margin-left:10px;
-    margin-top:8px;
+}
+.Icon_logo{
+    width:72px;
+    height:72px;
+    float:left;
+}
+.logo{
+    margin:4px;
+}
+.Movie_hub{
+    width:200px;
+    height:50px;
+    float:left;
+    margin:12px 0px 12px 5px;
+    
+}
+.tittle_text{
+    font-size:30px;
+    color:white;
+    margin:5px;
 }
 
-.word{
-    color:white;
-    text-align:center;
-    margin-top:9px;
-    font-size:22px;
-}
-.col3{
-    float:left;
-    height:33px;
-    width:72px;
-    margin-left:1200px;
-    margin-top:20px;
-}   
-.word1{
-    color:white;
-    text-align:center;
-    margin-top:5px;
-    font-size:20px;
-}
-.col4{
-    float:left;
+.second_text{
+    float:right;
+    width:200px;
     height:30px;
-    width:94px;
-    margin-left:20px;
-    margin-top:20px;
-}  
-.word2{
-    color:white;
-    text-align:center;
-    margin-top:7px;
-    font-size:17px;
+    margin:16px 80px 16px 0px;
 }
-
+.text{
+    color:white;
+    margin:4px;
+}
+.Watch{
+    width:65px;
+    height:30px;
+    float:left;
+    
+    
+}
+.Add_movie{
+    width:100px;
+    height:30px;
+    float:right;
+}
 .row3{
     height:28px;
+    width:100%;
+    border-bottom:solid 2px red;
 }
-.row4{
-    height:40px;
 
+.row4{
+    height:28px;
+    width:100%;
 }
-.row4_col{
-    float:left;
-    height:30px;
-    width:94px;
-    margin-left:220px;
-    margin-top:5px;
-}
-.word3{
-    color:white;
-    margin-top:5px;
-    font-size:20px;
-}
-    
 .row5{
     height:40px;
+    width:100%;
 }
 .row6{
-    height:275px;
-    width:1394px;
-    margin-left:220px;
-    border:2px solid black;
+    height:30px;
+    width:100%;
 }
-.col5{
+.Watch_text{
+    width:410px;
+    height:30px;
     float:left;
-    border:2px solid black;
-    height:252px;
-    width:206px;
-    margin-top:6px;
 }
-.col6{
+.Watch_data{
+    width:56px;
+    height:30px;
+   
+}
+.text1{
+    color:white;
+    margin:0px;
+}
+.row7{
+    width:100%;
+    height:28px;
+   
+    
+}
+.data_row{
+    
+    width:1000px;
+    height:277px;
+    border-bottom:solid 1px grey;
+    margin: auto;
+    margin-bottom:20px;
+    
+}
+.movie_image{
+    width:220px;
+    height:255px;
     float:left;
-    border:2px solid red;
-    height:252px;
-    width:1100px;
-    margin-left:60px;
-    margin-top:10px;
+    
 }
+
+.movie_detail{  
+    width:775px;
+    height:255px;
+    float:left;
+}
+.text2{
+    color:white;
+    margin:12px;
+    font-size:30px;
+}
+
+.action{
+    width:775px;
+    height:40px;
+}
+.like{
+    width:32px;
+    height:32px;
+    margin-right:2px;
+    float:left;
+}
+.rating{
+    width:32px;
+    height:32px;
+    margin-left:12px;
+    margin-top:9px;
+    float:left;
+}
+.num{
+    margin-top:2px;
+    margin-left:15px;
+}
+.dislike{
+    width:32px;
+    height:32px;
+    margin-right:2px;
+    margin-left:8px;
+    float:left;
+}
+.delete{
+    width:32px;
+    height:32px;
+    margin-right:2px;
+    float:right;
+}
+
+.movie_name{
+    margin:0px;
+}
+.All_detail{
+    width:775px;
+    height:215px;
+}
+.footer_row{
+    width:100%;
+    height:350px;
+}
+
+.row8{
+    width:1000px;
+    height:350px;
+    margin:auto;
+}
+.new_movie{
+    width:170px;
+    height:50px;
+    margin-top:80px;
+}
+.text4{
+    margin:2px;
+}
+
+
