@@ -183,9 +183,31 @@
     width:170px;
     height:50px;
     margin-top:80px;
+    margin-left:410px;
 }
 .text4{
     margin:2px;
 }
-
-
+.text3{
+    width:658px;
+    height:20px;
+    margin-left:410px;
+}
+.Add_new_movie{
+    width:190px;
+    height:49px;
+    background:red;
+    margin-left:410px;
+    
+}
+.add_button{
+    padding:0px 0px 5px 0px;
+    background:red;
+    text-align:center;
+}
+.add_button{
+    width:40px;
+    height:40px;
+    margin-top:20px;
+    background:red;
+}

@@ -23,13 +23,13 @@ const Action_row =()=>{
                       <div className="dislike">
                           <button onClick={dislike} class="imge"><img src="dislike_icon.svg" /></button> 
                       </div>
-                      <div className="delete">
-                          <button><img src="delete_logo.svg"/></button>  
-                      </div>
                   </div>
              </>
     )
 
 }
 export default Action_row;
+
+
+
 
