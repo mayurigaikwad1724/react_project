@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react';
 
-const Action_row =()=>{
+const Action_row =(props)=>{
          const [movies, setMovies] = useState(0);
          const like = () => {
              setMovies(movies + 1);

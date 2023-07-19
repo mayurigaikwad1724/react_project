@@ -3,6 +3,7 @@ import { useState } from 'react';
 import Header from './header.js'
 import Movie_row from './movie_row.js'
 import Footer from './footer.js'
+import Action_row from './action_row.js';
 import './globals.css'
 
 const Movies=[{id:0,
@@ -74,6 +75,15 @@ const App = () =>{
         const newMovielist=movie.filter((items)=>id !==items.id);
         setMovie(newMovielist)      
     };
+    
+    function sortData(row_data){
+        row_data.vote+=1
+        const newArray=[...movie]
+        newArray.sort((a,b)=>b.count -  a.count)
+        setMovie(newArray)
+        
+    };
+    
     return(
         <>
             <div className="row">
@@ -82,7 +92,8 @@ const App = () =>{
                    <Movie_row
                     key={item.id}
                     data={item}
-                    onDelete={()=>handleDelete(item.id)}                
+                    onDelete={()=>handleDelete(item.id)}  
+                    sortData={sortData}              
                     />
                 ))}
                 <Footer/>
