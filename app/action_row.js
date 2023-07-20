@@ -15,13 +15,13 @@ const Action_row =(props)=>{
              <>
                   <div className="actions">
                       <div className="like">
-                          <button onClick={like}><img src="like_icon.svg" /></button>
+                          <button onClick={()=>props.handleLike(props.data)}> <img src="like_icon.svg" /></button>
                       </div>
                       <div className="rating">
-                          <p className="num">{movies}</p>
+                          <p className="num">{props.data.vote}</p>
                       </div>
                       <div className="dislike">
-                          <button onClick={dislike} class="imge"><img src="dislike_icon.svg" /></button> 
+                          <button onClick={()=>props.handleDislike(props.data)} class="imge"><img src="dislike_icon.svg" /></button> 
                       </div>
                   </div>
              </>

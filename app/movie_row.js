@@ -14,7 +14,7 @@ export default function Movie_row(props) {
                   <h3>Description</h3>
                   <p>{props.data.Description}</p>
              </div>
-             <Action_row/>
+             <Action_row {...props}/>
              <Delete
                  {...props}
              />
